@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 类选择器 id选择器 -->
+    <style type="text/css">
+    /*所以p都起作用
+        p{
+            background-color: red;
+        }
+    */
+    .p1 {
+        background-color:red;
+    }
+    .p2 {
+        text-align: center;
+    }
+    #p2 {
+        background-color: red;
+    }
+    </style>
+</head>
+<body>
+    <p class="p1">第一段</p>
+    <p class="p1 p2">第二段</p>
+    <p>这是段落</p>
+    <p id="p2">这是段落</p><!-- 标签中的id一般是唯一的 -->
+    <p>这是段落</p>
+</body>
+</html>

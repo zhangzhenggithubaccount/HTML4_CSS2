@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- form 表单 -->
+    <style>
+        body{
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- css: cascading style sheets-->
+    <form action="#" method="GET">
+        <p>用户名：<input type="text" title="用户名" name="account"/></p>
+        <p>密&nbsp;&nbsp;<!--name blank space-->码：<input type="password" title="密码" name="password"/></p> <!-- 空白折叠 -->
+        <p>性别：<input type="radio" checked="checked" name="sex" value="1" id=""/>男</p>
+        <p>性别：<input type="radio" name="sex" value="2" id=""/>女</p>
+        <p>
+            爱吃的菜：
+            <input type="checkbox" checked="checked" name="food" value="1" id="" />回锅肉
+            <input type="checkbox" name="food" value="2" id="" />红烧肉
+            <input type="checkbox" name="food" value="3" id="" />西红柿炒蛋
+        </p>
+        <p>
+            城市：
+            <select name="city">
+                <option value="beijing">北京</option>
+                <option value="shanghai">上海</option>
+                <option value="tianjing">天津</option>
+                <option value="chongqing" selected="selected">重庆</option>
+            </select>
+        </p>
+        <p>
+            留言：<textarea name="" id="" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="button" value="普通按钮" />
+            <input type="submit" value="提交按钮" />
+            <input type="reset" value="重置按钮"/>
+        </p>
+    </form>
+</body>
+</html>

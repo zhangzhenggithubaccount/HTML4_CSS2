@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- table 表格 -->
+    <style>
+        table, tr, td{
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" cellspacing=None cellpadding=None>
+        <caption>录取名单</caption>
+        <thead>
+            <tr> <!-- table row -->
+                <th>学号</th> <!-- table head -->
+                <th>姓名</th>
+                <th>成绩</th>
+                <th>是否录取</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td> <!-- table descript -->
+                <td>Jack</td>
+                <td>88</td>
+                <td>是</td>
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+    <table border="1" cellspacing=None cellpadding=None>
+        <tr> <!-- table row -->
+            <th rowspan="2">学号</th> <!-- table head -->
+            <th>姓名</th>
+            <th>成绩</th>
+            <th>是否录取</th>
+        </tr>
+        <tr>
+            <td>Jack</td>
+            <td colspan="2">是</td>
+        </tr>
+    </table>
+</body>
+</html>

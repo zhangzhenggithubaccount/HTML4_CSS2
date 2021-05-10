@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*
+          color: red;
+          color: #ffffff;  0~255 十六进制 
+                 #fff 白色  
+                 #000000 #000 黑色
+                 #ff0000 #f00 红色
+                 #00ff00 #0f0 绿色
+                 #0000ff #00f 蓝色
+                 #cccccc #ccc 灰色
+                 #998834 不能简写
+         color: rbg(123,34,56) 
+
+
+         font-family 字体 
+             英文字体 中文字体  书写字体 一般先写英文后写中文
+
+             font-family: "consolas","Arial","微软雅黑","宋体"
+                                                        SimSun
+
+         font-size  字号
+         font-size: 16px;
+         浏览器不同 默认显示字号不一样，并且加载的最小字号也不一样      
+         chrome浏览器 默认16px 支持显示最小12px
+         ie6 默认14px 支持显示最小1px    
+         12/14/16 实际项目根据设计师指定   
+
+
+         line-height 行高 
+                一行文字实际占有高度 
+         font-weight 字体加粗
+         font-weight: 700   加粗 bold
+         font-weight: 400  正常 normal 
+         font-weight: 100-700 100 200 300 。。。。    
+        */
+        p { 
+            color: #d34f33;
+            /* line-height: 38px; */
+            /*
+            font-size: 20px;
+            line-height: 200%; 百分比相对字号
+            font-family: "SimSun";
+            */
+            font: 20px/40px "SimSun";
+        }
+
+        .p2 {
+            font-weight: 700;
+            color: #000;
+        }
+
+        h1 {
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+    <p>我是阿龙老师，老司机带你们飞</p>
+    <p class="p2">这是第二段</p>
+    <h1>标题</h1>
+</body>
+</html>

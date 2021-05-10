@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css2 7中选择器 -->
+    <style type="text/css">
+
+        /*标签选择器*/
+        div {
+            font-size: 20px;
+        }
+
+        /*类选择器*/
+        .nav {
+            background-color: skyblue;
+        }
+
+        /*id选择器*/
+        #content {
+            background-color: green;
+        }
+
+        /*通配符*/
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*并列选择器*/
+        div, h1, h2, h3, ol, li, ul, th, td {
+            text-align: center;
+        }
+
+        /*交集选择器*/
+        div.nav li{
+            color:red;
+        }
+
+        /*后代选择器*/
+        div ul .top{
+            color: slateblue;
+            font-size: 60px;
+        }
+    
+    </style>
+
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li class="top">item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ul>
+    </div>
+    <div id="content">first div</div>
+    <div>secend div</div>
+</body>
+</html>
